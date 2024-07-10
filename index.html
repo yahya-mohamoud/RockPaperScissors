@@ -1,18 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RockPaperScissors</title>
     <style>
-       
+     body{
+        background-color: #cbb5ce;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+     }
+     .container{
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        justify-content: center;
+        width: 470px;
+        height: auto;
+        justify-content: center;
+        border-radius: 24px;
+        /* box-shadow: bisque; */
+        padding: 0 20px 20px;
+    }
+
+    h1{
+      text-align: center;
+    }
+    .outcomes{
+      display: flex;
+      flex-direction: column;
+    }
+    .outcomeDiv, h2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btns{
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+
+    }
+
+    .resetBtn{
+      background-color: #050505;
+      color: turquoise;
+      border: none;
+      border-radius: 10px;
+      padding: 8px;
+     
+    }
+
+    .resetBtn:hover{
+      background-color: #6b6767;
+      color: #fff;
+    }
     </style>
-</head>
-<body>
-   
+  </head>
+  <body>
+    <div class="container">
+      <h1>RockPaperScissors</h1>
 
-    <script src="index.js">
+      <div class="runningScore">
+        <span class="player-score">playerScore:</span>
+        <span class="computer-score">computerScore:</span>
+      </div>
 
-    </script>
-</body>
+      <div class="btns">
+        <button class="rockBtn">Rock</button>
+        <button class="paperBtn">Paper</button>
+        <button class="scissorsBtn">Scissors</button>
+      </div>
+
+      <div class="outcomes">
+      </div>
+      <div class="reset">
+        <button class="resetBtn">RESET</button>
+      </div>
+     
+     
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
