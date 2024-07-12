@@ -71,7 +71,7 @@ const rockBtn = document.querySelector(".rockBtn");
 const paperBtn = document.querySelector(".paperBtn");
 const scissorBtn = document.querySelector(".scissorsBtn");
 
-rockBtn.innerHTML = "<img src='https://images.app.goo.gl/i4MAUbCJkpgmB2T98' >";
+// rockBtn.innerHTML = "<img src='https://images.app.goo.gl/i4MAUbCJkpgmB2T98' >";
 paperBtn.innerHTML = "<img src='https://images.app.goo.gl/rFcDu5Btxng8W8PXA' >";
 scissorBtn.innerHTML = "<img src='https://images.app.goo.gl/V8ftrNmvrAEnjFat9' >";
 
