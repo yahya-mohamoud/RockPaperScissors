@@ -71,9 +71,9 @@ const rockBtn = document.querySelector(".rockBtn");
 const paperBtn = document.querySelector(".paperBtn");
 const scissorBtn = document.querySelector(".scissorsBtn");
 
-rockBtn.innerHTML = "<img src='/img/white_circle.pnd' >";
-paperBtn.innerHTML = "<img src='/img/scroll.png' >";
-scissorBtn.innerHTML = "<img src='scissors.png' >";
+rockBtn.innerHTML = "<img src='img/white_circle.png' >";
+paperBtn.innerHTML = "<img src='img/scroll.png' >";
+scissorBtn.innerHTML = "<img src='img/scissors.png' >";
 
 rockBtn.addEventListener("click", () => {
   const computerSelection = getComputerChoice();
