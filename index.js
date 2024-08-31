@@ -1,4 +1,3 @@
-"use strict"
 
 const rockBtn = document.querySelector(".rockBtn")
 const paperBtn = document.querySelector(".paperBtn")
